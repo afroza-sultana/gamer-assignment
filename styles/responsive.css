@@ -43,11 +43,12 @@
   font-size: 3.9rem;
 }
   .banner-img{
-    width: 100%;
+    width: 90%;
     margin-left: 30px;
 }
 /* Online Games Funny Videos section */
-.games-videos-container h2 {
+
+.games-videos-container h2, .games-videos-title {
   font-size: 1.7rem;
 }
 .gradient-font-size{
@@ -62,7 +63,41 @@
   font-size: 1rem;
 }
 /* Play Instantly section */
-
+.play-instantly-container{
+  flex-direction: column;
+  text-align: center;
+  gap: 70px;
+}
+.play-instantly-content{
+  width: 100%;
+}
+.games-videos-title{
+  margin: 20px;
+}
+.play-text{
+  font-size: 16px;
+}
+.play-instantly-img {
+  width: 100%;
+}
+.play-instantly-img img{
+  width: 80%;
+}
+.play-instantly-img .absolute-img{
+  width: 35%;
+}
+.play-instantly-img{
+  position: relative;
+  left: 30px;
+}
+.absolute-img{
+  border-radius: 8px;
+  border: 10px solid #FFF;
+  background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+  position: absolute;
+    top: 200px;
+    right: 260px;
+}
 }
 
 
@@ -103,4 +138,39 @@
   margin-left: 0;
 }
 /* Play Instantly section */
+.play-instantly-container{
+  flex-direction: column;
+  text-align: center;
+  gap: 70px;
+}
+.play-instantly-content{
+  width: 100%;
+}
+.games-videos-title{
+  margin: 20px;
+}
+.play-text{
+  font-size: 16px;
+}
+.play-instantly-img {
+  width: 100%;
+}
+.play-instantly-img img{
+  width: 80%;
+}
+.play-instantly-img .absolute-img{
+  width: 35%;
+}
+.play-instantly-img{
+  position: relative;
+  left: 30px;
+}
+.absolute-img{
+  border-radius: 8px;
+  border: 10px solid #FFF;
+  background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+  position: absolute;
+    top: 400px;
+    right: 470px;
+}
 }

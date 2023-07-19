@@ -81,6 +81,7 @@ li > a {
     margin-left: 32px;
 }
 /* nav design ends here  */
+
 /* banner design starts here  */
 .banner-bg-container{
     background-image: url("../images/Group\ 14.png");
@@ -120,7 +121,7 @@ li > a {
 /* banner design ends here  */
 
 /* Online Games Funny Videos section starts */
-.games-videos-container{
+.games-videos-container {
     max-width: 1440px;
     margin: 120px auto;
     text-align: center;
@@ -134,6 +135,7 @@ li > a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+    padding-top: 2rem;
 }
 .card-text{
     text-align: left;
@@ -177,3 +179,28 @@ li > a {
 }
 /* Online Games Funny Videos section ends */
 /* Play Instantly section  */
+.play-instantly-container{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: right;
+}
+.play-instantly-content{
+    width: 50%;
+}
+.play-instantly-img{
+    width: 50%;
+}
+.play-instantly-img{
+    position: relative;
+}
+.absolute-img{
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    position: absolute;
+    top: 360px;
+    right: 460px;
+}
