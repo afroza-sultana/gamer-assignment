@@ -121,7 +121,7 @@ li > a {
 /* banner design ends here  */
 
 /* Online Games Funny Videos section starts */
-.games-videos-container {
+.games-videos-container{
     max-width: 1440px;
     margin: 120px auto;
     text-align: center;
@@ -203,4 +203,39 @@ li > a {
     position: absolute;
     top: 360px;
     right: 460px;
+}
+/* button with img section */
+.button-container{
+    padding: 30px;
+    margin-top: 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);   
+}
+.center-btn{
+    max-width: 1440px;
+    margin: 120px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 37px;
+}
+.button{
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.button:hover{
+    border: 2px solid #FF42A5;
+}
+.button:hover .btn-text{
+    color: #FF42A5;
+}
+.btn-text{
+    margin: 0;
+    padding:20px 0;
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 190px;
 }

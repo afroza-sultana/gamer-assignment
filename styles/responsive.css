@@ -98,6 +98,26 @@
     top: 200px;
     right: 260px;
 }
+/* button with img section */
+.button-container{
+  background: white;   
+}
+.center-btn{
+  margin: 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.btn-img{
+  width: 30%;
+}
+.btn-text{
+  padding:0;
+  font-size: .5rem;
+  width: 150px;
+}
+.btn-text{
+  width: 100px;
+}
 }
 
 
@@ -172,5 +192,24 @@
   position: absolute;
     top: 400px;
     right: 470px;
+}
+/* button with img section */
+.button-container{
+  background: white;   
+}
+.center-btn{
+  margin: 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+.btn-img{
+  width: 30%;
+}
+.btn-text{
+  padding:0;
+  font-size: .8rem;
+  width: 150px;
+}
+.btn-text{
+  width: 100px;
 }
 }
