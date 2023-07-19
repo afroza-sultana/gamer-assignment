@@ -16,10 +16,10 @@
         flex-direction: column;
     }
     .nav-items li{
-      margin: 10px 0 10px 80px;
+      margin: 10px 0 10px 50px;
     }
     #nav-bg{
-      margin:20px 0 20px 100px;
+      margin:20px 0 20px 80px;
   }
   /* banner design */
   .banner-bg-container{
@@ -30,12 +30,11 @@
     
   }
   .banner-content{
-    width: 100%;
+    width: 90%;
     background-image: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
-    padding: 100px;
-    padding-right: 0;
-    border: 2px solid rebeccapurple;
+    padding: 80px;
+    padding-right: 30px;
 }
 .banner-content h3{
   font-size: 2rem;
@@ -45,9 +44,26 @@
 }
   .banner-img{
     width: 100%;
-    margin-left: 40px;
+    margin-left: 30px;
+}
+/* Online Games Funny Videos section */
+.games-videos-container h2 {
+  font-size: 1.7rem;
+}
+.gradient-font-size{
+  font-size: 1.7rem;
+}
+.card-container{
+  grid-template-columns:  1fr;
+  margin-left: 50px;
+}
+.card-text{
+  text-align: center;
+  font-size: 1rem;
 }
 }
+
+
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width:992px) {
     nav > ul {
@@ -78,5 +94,10 @@
 }
   .banner-img{
     width: 100%;
+}
+/* Online Games Funny Videos section */
+.card-container{
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 0;
 }
 }
