@@ -272,6 +272,11 @@ li > a {
 .social-icons .fa-brands{
     font-size: 40px;
 }
+.terms-menu {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;  
+}
 .terms-menu a, .footer-container p{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
