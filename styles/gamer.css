@@ -2,30 +2,36 @@
      Works sans google fonts  
 --------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 /*-------------------
     shared styles  
 --------------------- */
- * {
+* {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.1rem;
 }
-.color-primary{
+
+.color-primary {
     color: #FF42A5;
     font-size: 2.8rem;
     font-weight: 700;
 }
-.grey-text-color{
+
+.grey-text-color {
     color: #534C64;
 }
+
 .linear-gradient-color {
     background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
 }
-.gradient-font-size{
+
+.gradient-font-size {
     font-size: 3rem;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 48px;
     background-color: #FF42A5;
     padding: 21px 40px;
@@ -34,117 +40,141 @@
     font-size: 20px;
     font-weight: 600;
 }
+
 /*----------------------- 
     header section 
 ------------------------- */
 /* nav design starts here  */
-nav > ul {
+nav>ul {
     display: flex;
     justify-content: space-between;
     max-width: 1440px;
     margin: 30px auto 30px;
     padding: 0;
 }
-nav li  {
+
+nav li {
     list-style: none;
     padding-left: 20px;
 }
-li > a {
+
+li>a {
     text-decoration: none;
     color: #3C354F;
     font-weight: 500;
 }
-.nav-logo-container{
+
+.nav-logo-container {
     display: flex;
     align-items: center;
 }
+
 .nav-logo-container .nav-logo-title {
     font-size: 2.8rem;
     font-weight: 700;
 }
-.nav-items{
+
+.nav-items {
     display: flex;
     align-items: center;
 }
-.nav-items .fa-youtube{
+
+.nav-items .fa-youtube {
     color: red;
     padding-left: 20px;
     padding-right: 16px;
 }
-.nav-items .fa-tiktok{
+
+.nav-items .fa-tiktok {
     color: maroon;
 }
-#nav-bg{
+
+#nav-bg {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 18px 24px;
     margin-left: 32px;
 }
+
 /* nav design ends here  */
 
 /* banner design starts here  */
-.banner-bg-container{
+.banner-bg-container {
     background-image: url("../images/Group\ 14.png");
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
+    background-position: left;
 }
-.banner-container{
+
+.banner-container {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
-    
+
 }
-.banner-content{
+
+.banner-content {
     width: 50%;
     padding: 148px 0;
 }
-.banner-img{
+
+.banner-img {
     width: 50%;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
 }
-.banner-content h3{
+
+.banner-content h3 {
     color: #0B0223;
     font-size: 3rem;
     font-weight: 600;
     margin: 0;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 5.9rem;
     font-weight: 800;
     margin: 0;
 }
-.secondary-btn{
+
+.secondary-btn {
     background-color: #4EC5F7;
     margin-left: 24px;
 }
+
 /* banner design ends here  */
 
 /* Online Games Funny Videos section starts */
-.games-videos-container{
+.games-videos-container {
     max-width: 1440px;
     margin: 120px auto;
     text-align: center;
 }
-.games-videos-title{
+
+.games-videos-title {
     color: #0B0223;
     font-size: 3rem;
     font-weight: 700;
 }
-.card-container{
+
+.card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     padding-top: 2rem;
 }
-.card-text{
+
+.card-text {
     text-align: left;
 }
+
 /* image  hover styles*/
-#hover-container{
+#hover-container {
     position: relative;
 }
-.hover-img{
+
+.hover-img {
     opacity: 1;
     display: block;
     width: 100%;
@@ -152,7 +182,8 @@ li > a {
     transition: .5s ease;
     backface-visibility: hidden;
 }
-.watch-now{
+
+.watch-now {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -161,25 +192,30 @@ li > a {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
+
 #hover-container:hover .hover-img {
     opacity: 0.3;
 }
+
 #hover-container:hover .watch-now {
     opacity: 1;
 }
-.text{
+
+.text {
     color: #aa0058;
     font-size: 1.4rem;
     font-weight: 800;
 }
-.fa-circle-play{
+
+.fa-circle-play {
     color: #000000;
     font-size: 2rem;
 }
+
 /* Online Games Funny Videos section ends */
 /* Play Instantly section  */
-.play-instantly-container{
+.play-instantly-container {
     display: flex;
     align-items: center;
     gap: 250px;
@@ -187,16 +223,20 @@ li > a {
     margin: 0 auto;
     text-align: right;
 }
-.play-instantly-content{
+
+.play-instantly-content {
     width: 50%;
 }
-.play-instantly-img{
+
+.play-instantly-img {
     width: 50%;
 }
-.play-instantly-img{
+
+.play-instantly-img {
     position: relative;
 }
-.absolute-img{
+
+.absolute-img {
     border-radius: 8px;
     border: 10px solid #FFF;
     background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
@@ -204,81 +244,99 @@ li > a {
     top: 360px;
     right: 460px;
 }
+
 /* button with img section */
-.button-container{
+.button-container {
     padding: 30px;
     margin-top: 100px;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);   
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-.center-btn{
+
+.center-btn {
     max-width: 1440px;
     margin: 120px auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 37px;
 }
-.button{
+
+.button {
     border-radius: 50px;
     background: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
+    border: 2px solid #ffffff;
 }
-.button:hover{
+
+.button:hover {
     border: 2px solid #FF42A5;
 }
-.button:hover .btn-text{
+
+.button:hover .btn-text {
     color: #FF42A5;
 }
-.btn-text{
+
+.btn-text {
     margin: 0;
-    padding:20px 0;
+    padding: 20px 0;
     color: #0B0223;
     font-size: 1rem;
     font-weight: 600;
     width: 190px;
 }
+
 /* footer  */
-.footer-container{
+.footer-container {
     background: #0B0223;
     padding: 120px 0;
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     justify-content: center;
     padding-bottom: 70px;
 }
-.footer-logo-title{
+
+.footer-logo-title {
     text-align: center;
     font-size: 45px;
     font-weight: 700;
     color: white;
 }
-.footer-menu, .social-icons {
+
+.footer-menu,
+.social-icons {
     color: #FFF;
     text-align: center;
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 56px;
 }
-.footer-menu a, .terms-menu a{
+
+.footer-menu a,
+.terms-menu a {
     padding: 30px;
 }
-.social-icons a{
+
+.social-icons a {
     color: white;
     padding: 20px;
 }
-.social-icons .fa-brands{
+
+.social-icons .fa-brands {
     font-size: 40px;
 }
+
 .terms-menu {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;  
+    font-size: 16px;
 }
-.terms-menu a, .footer-container p{
+
+.terms-menu a,
+.footer-container p {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;  
+    font-size: 16px;
 }

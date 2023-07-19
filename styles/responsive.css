@@ -119,6 +119,7 @@
   width: 100px;
 }
 /* footer section  */
+
 .footer-menu, .social-icons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
