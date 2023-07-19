@@ -118,6 +118,15 @@
 .btn-text{
   width: 100px;
 }
+/* footer section  */
+.footer-menu, .social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.terms-menu{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 }
 
 
@@ -211,5 +220,14 @@
 }
 .btn-text{
   width: 100px;
+}
+/* footer section  */
+.footer-menu, .social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.terms-menu{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 }

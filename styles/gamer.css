@@ -239,3 +239,41 @@ li > a {
     font-weight: 600;
     width: 190px;
 }
+/* footer  */
+.footer-container{
+    background: #0B0223;
+    padding: 120px 0;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.footer-logo-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+.footer-menu, .social-icons {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 56px;
+}
+.footer-menu a, .terms-menu a{
+    padding: 30px;
+}
+.social-icons a{
+    color: white;
+    padding: 20px;
+}
+.social-icons .fa-brands{
+    font-size: 40px;
+}
+.terms-menu a, .footer-container p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;  
+}
