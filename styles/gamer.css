@@ -76,13 +76,15 @@ li > a {
 }
 /* nav design ends here  */
 /* banner design starts here  */
+.banner-bg-container{
+    background-image: url("../images/Group\ 14.png");
+    background-repeat:no-repeat ;
+}
 .banner-container{
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
-    background-image: url("../images/Group\ 14.png");
-    background-repeat:no-repeat ;
-    background-position: -10em;
+    
 }
 .banner-content{
     width: 50%;

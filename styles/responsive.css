@@ -5,32 +5,47 @@
 @media screen and (max-width:576px) {
     nav > ul {
         flex-direction: column;
-        max-width: 270px;
+        max-width: 370px;
         margin: 0 auto;
     }
     .nav-logo-container{
-        margin-left:10px;
-        margin-top: 80px;
+        width: 200px;
+        margin: 80px auto 10px;
     }
     .nav-items {
         flex-direction: column;
     }
     .nav-items li{
-        margin: 20px;
+      margin: 10px 0 10px 80px;
     }
+    #nav-bg{
+      margin:20px 0 20px 100px;
+  }
   /* banner design */
+  .banner-bg-container{
+    background-image: none;
+  }
   .banner-container{
     flex-direction: column-reverse; 
-    background-image: none;
+    
   }
   .banner-content{
     width: 100%;
     background-image: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
-    background-position: -20em;
+    padding: 100px;
+    padding-right: 0;
+    border: 2px solid rebeccapurple;
+}
+.banner-content h3{
+  font-size: 2rem;
+}
+.banner-content h1{
+  font-size: 3.9rem;
 }
   .banner-img{
     width: 100%;
+    margin-left: 40px;
 }
 }
 /* tablet or medium devices */
@@ -48,15 +63,17 @@
         margin: 20px;
     }
     /* banner design */
+    .banner-bg-container{
+      background-image: none;
+    }
   .banner-container{
     flex-direction: column-reverse; 
-    background-image: none;
   }
   .banner-content{
     width: 100%;
     background-image: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
-    background-position: -10em;
+    background-position: -5em;
     padding-left: 150px;
 }
   .banner-img{
