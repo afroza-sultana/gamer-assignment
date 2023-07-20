@@ -164,7 +164,6 @@ li>a {
     gap: 24px;
     padding-top: 2rem;
 }
-
 .card-text {
     text-align: left;
 }
@@ -255,9 +254,10 @@ li>a {
 .center-btn {
     max-width: 1440px;
     margin: 120px auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px;  
 }
 
 .button {
